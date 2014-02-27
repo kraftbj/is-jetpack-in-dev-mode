@@ -52,7 +52,7 @@ function bk_jp_get_development_mode_notice() {
 	return compact( $notice, $class );
 }
 
-add_action( 'jetpack_notices', 'bk_jp_is_development_mode' );
+add_action( 'jetpack_notices', 'bk_jp_show_development_mode_notice' );
 /**
  * Show Jetpack development mode notice.
  *
